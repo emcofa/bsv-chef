@@ -4,6 +4,10 @@ import src.static.diets as diets
 from src.controllers.receipecontroller import ReceipeController
 
 
+# MY PYTEST DIDN'T WORK IN MY TERMINAL SO I COULDN'T RUN THE TESTS
+
+
+
 @pytest.fixture
 def sut(receipe, available_items, diet, readiness):
     with patch("src.controllers.receipecontroller.calculate_readiness") as mocked_calculate_readiness:
