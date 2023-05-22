@@ -8,6 +8,13 @@ from src.util.dao import DAO
 from src.static.diets import Diet
 from src.util.calculator import calculate_readiness
 
+
+
+# MY PYTEST DIDN'T WORK IN MY TERMINAL SO I COULDN'T RUN THE TESTS
+
+
+
+
 class ReceipeController(Controller):
     def __init__(self, items_dao: DAO):
         super().__init__(dao=items_dao)
