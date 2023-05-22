@@ -12,7 +12,7 @@ class ReceipeController(Controller):
     def __init__(self, items_dao: DAO):
         super().__init__(dao=items_dao)
 
-        # load existing receipes test
+        # load existing receipes
         self.receipes = self.load_receipes()
 
     def load_receipes(self) -> list[dict]:
